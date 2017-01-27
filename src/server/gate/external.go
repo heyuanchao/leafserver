@@ -1,8 +1,6 @@
 package gate
 
-import (
-	"server/gate/internal"
-)
+import "leafserver/gate/internal"
 
 var (
 	Module = new(internal.Module)

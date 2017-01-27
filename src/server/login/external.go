@@ -1,8 +1,6 @@
 package login
 
-import (
-	"server/login/internal"
-)
+import "leafserver/login/internal"
 
 var (
 	Module  = new(internal.Module)
